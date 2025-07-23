@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\GCS\Desktop\project 2\css_files\index.css">
+    <link rel="stylesheet" href="C:\Users\GCS\Desktop\project 2\css_files\login.css">
+</head>
+<body>
+    <nav id="nav"> 
+      <button id="menu">menu
+        <dialog id="menu-dialog">
+        <div class="my">
+          <img src="C:\bin  2\photo\customer-logo.png" alt="logo">
+          <div class="anchor-dialog">
+            <a href="">home</a>
+            <a id="login-tag" href="#loginbtn">login</a>
+            <a href="">about us</a>
+            <a id="contact-tag" href="contact us">contact us</a>
+            <a id="update-tag" href="#updates">updates</a>
+          </div>
+        </div>
+        </dialog>
+      </button>
+     <a id="1" class="anchor" href="#index.html">home</a>
+     <a id="2" class="anchor" href="mailto:">location</a>
+     <a id="3" class="anchor" href="">contact us</a>
+     <button id="show-dialog"> <a name="loginbtn">login </a></button>
+        <dialog aria-modal="true" id="dialog">
+              <form>
+                <div class="username" >
+                   <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v58q0 59-40.5 100.5T740-280q-35 0-66-15t-52-43q-29 29-65.5 43.5T480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480v58q0 26 17 44t43 18q26 0 43-18t17-44v-58q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h200v80H480Zm0-280q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Z"/></svg> 
+                <input type="text" name="user_name" size="15" placeholder="Registered Email">
+                </div>
+                <div class="password">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg> 
+                <input type="password"  name="password" value="text" placeholder="PASSWORD"   maxlength="8">
+                </div>
+                <div class="catchup">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="44px" fill="#1f1f1f"><path d="M680-119q-8 0-16-2t-15-7l-120-70q-14-8-21.5-21.5T500-249v-141q0-16 7.5-29.5T529-441l120-70q7-5 15-7t16-2q8 0 15.5 2.5T710-511l120 70q14 8 22 21.5t8 29.5v141q0 16-8 29.5T830-198l-120 70q-7 4-14.5 6.5T680-119ZM400-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM80-160v-112q0-33 17-62t47-44q51-26 115-44t141-18h14q6 0 12 2-8 18-13.5 37.5T404-360h-4q-71 0-127.5 18T180-306q-9 5-14.5 14t-5.5 20v32h252q6 21 16 41.5t22 38.5H80Zm320-400q33 0 56.5-23.5T480-640q0-33-23.5-56.5T400-720q-33 0-56.5 23.5T320-640q0 33 23.5 56.5T400-560Zm0-80Zm12 400Zm174-166 94 55 94-55-94-54-94 54Zm124 208 90-52v-110l-90 53v109Zm-150-52 90 53v-109l-90-53v109Z"/>
+                </svg>
+               
+                <input type="image" id="image_box" placeholder="Text" >
+                <button id="reload" class="button" > <svg id="symbol" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="white"><path d="M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-110h80v280H520v-80h168q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q77 0 139-44t87-116h84q-28 106-114 173t-196 67Z"/></svg></button> 
+                <input id="image_catchup" type="text"  size="6" name="image_text" placeholder="Image Text">
+                </div>
+                 <p align="center">
+                 <button id="login_button" class="button"> login</button> </p><p align="center">
+            <a class="a-dialog" href="#" >first time user or don't remember password?</a> </p><p align="center">
+                    <a class="a-dialog">signup or OTP login</a></p>
+              </form>
+        </dialog>
+     </a>
+    </nav>
+    <main id="main">
+    <section id="banner" class="section">
+      <img class="slides" src="C:\bin  2\photo\main.webp" alt="">
+       <img class="slides" src="C:\bin  2\photo\m2.webp" alt="">
+       <img class="slides" src="C:\bin  2\photo\m4.jpg" alt="">
+       <img class="slides" src="C:\bin  2\photo\main.webp" alt="">
+       <img class="slides" src="C:\bin  2\photo\g3.webp" alt="">
+       <img class="slides" src="C:\bin  2\photo\m3.webp " alt="">
+    </section>
+    <div  class="welcomepage">
+        <h1 id="welcome">  Welcome to your Kurukshetra University Kurukshetra Alumni Association</h1>
+    <div class="p-img">
+      <p>  
+We see this Kurukshetra University Kurukshetra Alumni Association as a circle where we hold each other and help each other reach goals. We take the support that we need and offer what we can. We see ourselves as complete only when we are able to do this together and for each other.
+This vision for this community is to create an ecosystem of support for all alumni to fulfill their life goals.
+Our goals include making all alumni independent by supporting them through education, building a sense of community and creating interest based pathways.
+What we hope this portal does is to give each of you a space to fearlessly share your voice, be there for each other and find ways to give back to your Kurukshetra University Kurukshetra Alumni Association.
+      </p>
+     <div id="img-kukaa">
+     <img src="C:\bin  2\photo\KUKAA.jpg" alt="">
+     </div>
+    </div>
+    </div>
+    <section class="section" id="updateSection">
+      <h1> <a name="updates"> updates </a></h1>
+      <div class="updates">
+       <div class="notification" id="news">
+         <h2>News</h2>
+      <div id="animation">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+      </div>
+    </div>
+
+      <div class="notification" id="notification">
+         <h2> <a name="updates">notification</a>
+         </h2>
+      <div id="animation">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+      </div>
+      </div>
+    </div>
+    </section>
+    <section id="notableAlumniSECTION" class="section">
+      <h1>notabal alumni</h1>
+      <div class="notabal-alumni">
+       <div id="alumnii-content-div " class="alumni-content-div">
+        <div class="alumni-image">
+        <img src="C:\bin  2\photo\mnohar lal.webp" alt="">
+        </div>
+        <div class="info">
+        <h4>content</h4>
+        </div>
+       </div>
+       <div class="alumni-content-div">
+        <div class="alumni-image">
+        <img src="C:\bin  2\photo\bandaru dattatreya.webp" alt="">
+        </div>
+        <div class="info">
+        <h4>content</h4>
+        </div>
+       </div>
+       <div class="alumni-content-div">
+        <div class="alumni-image">
+        <img src="C:\bin  2\photo\kanwar pal gujjar.webp" alt="">
+        </div>
+        <div class="info">
+         <h4>content</h4>
+        </div>
+       </div>
+       <div class="alumni-content-div">
+        <div class="alumni-image">
+        <img src="C:\bin  2\photo\geeta zutshi.webp" alt="">
+        </div>
+        <div class="info">
+         <h4>content</h4>
+        </div>
+       </div>
+      </div>
+    </section>
+
+
+     <section class="section" id="event">
+      <h1>events</h1>
+        <div id="main-div">
+          <div class="content">
+      <div class="img">
+        <img src="C:\bin  2\photo\1.webp" alt="">
+      </div>
+      <div class="img-information">
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime cupiditate beatae corrupti quasi molestias similique, sint deleniti officia hic expedita architecto inventore accusantium! Reprehenderit totam repellendus commodi consequatur cum ex doloribus libero sequi unde quam! Ducimus quidem earum praesentium laboriosam facilis incidunt alias quod, vel aut temporibus fugiat, possimus consectetur? Alias praesentium, reiciendis eaque magnam nulla necessitatibus natus minus voluptas repudiandae autem sint amet aspernatur illo, suscipit mollitia culpa quisquam obcaecati libero explicabo itaque expedita accusantium dignissimos rem. Incidunt veritatis dolor modi eveniet totam, odit fuga iste magni beatae voluptas cumque necessitatibus, facere soluta itaque dolore numquam nihil. Porro excepturi unde animi optio soluta omnis fugiat ipsa eligendi nulla ut quam dolorum dolore consequatur dicta cumque recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         </p>
+        </div>
+      </div>
+      <div class="content">
+      <div class="img">
+        <img src="C:\bin  2\photo\e1.jpg" alt="">
+      </div>
+      <div class="img-information">
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime natur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         </p>
+        </div>
+      </div>
+      <div class="content">
+      <div class="img">
+        <img src="C:\bin  2\photo\e2.jpg" alt="">
+      </div>
+      <div class="img-information">
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime cupiditate beatae corrupti quasi molestias similique, sint deleniti officia hic expedita architecto e recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         </p>
+        </div>
+      </div>
+      <div class="content">
+      <div class="img">
+        <img src="C:\bin  2\photo\e3.jpg" alt="">
+      </div>
+      <div class="img-information">
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voutem sint amet aspernatur illo, suscipit mollitia culpa quisquam obcaecati libero explicabo itaque expedita accusantium dignissimos rem. Incidunt veritatis dolor modi eveniet totam, odit fuga iste magni beatae voluptas cumque necessitatibus, facere soluta itaque dolore numquam nihil. Porro excepturi unde animi optio soluta omnis fugiat ipsa eligendi nulla ut quam dolorum dolore consequatur dicta cumque recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         </p>
+        </div>
+      </div>
+      <div class="content">
+      <div class="img">
+        <img src="C:\bin  2\photo\e4.jpg" alt="">
+      </div>
+      <div class="img-information">
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime cupiditate beatae corrupti quasi molestias similique, sint deleniti officia hic expedita architecto inventore accusantium! Reprehenderit totam repellendus commodi consequatur cum ex doloribus libero sequi unde qudit fuga iste magni beatae voluptas cumque necessitatibus, facere soluta itaque dolore numquam nihil. Porro excepturi unde animi optio soluta omnis fugiat ipsa eligendi nulla ut quam dolorum dolore consequatur dicta cumque recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         </p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="section" id="gallary">
+      <h1> gallary</h1>
+      <div class="video">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/4t4_K1Xq5Sc?si=ysglWtAg1JsOQ4-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/EsahVEa19Aw?si=MQY1RkBLIuYqOS1R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zj9zrFK5MZM?si=YXGq2DYh1uRZncCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/NBS0GNQy9c4?si=ytWcZWp1ZzZIR02X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/H2nchkZI6BE?si=qts2574L1ZPqWc2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/pkOZ31CHOwY?si=BShW55drOTMVwXq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9FKkXieFC-w?si=w4zPNLHNEsi1sqTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="section">
+      <h1>have query! contact us </h1>
+      <div class="form-container">
+        <div class="formdiv">
+        <form action="">
+          name<input type="text" placeholder="enter your name" value="text" name="name">
+          rollno<input type="text" name="rollno" placeholder="rollno" >
+          Email <input type="email" >
+          password<input type="password" name="password" value="text">
+          <textarea name="query" id="query-box"></textarea>
+          <button type="submit">submit</button>
+          <button type="reset">reset</button>
+        </form>
+        </div>
+       
+    </section>
+    <section class="section" id="contactus">
+      <div class="contactus">
+        <h1><a name="contact us">contact us</a></h1>
+        <div class="contactinfo"><div>
+          <h2>Contact Info:</h2>
+          <p>Kurukshetra University Kurukshetra
+           <br><pre>mobile: 01744-238410 238196 (O); 
+            +91- 7082113154 (M)</pre>
+                  <br>
+                  link: www.kuk.ac.in <br>
+          mail: alumni@kuk.ac.in kukaa1@kuk.ac.in kukaa2@kuk.ac.in</p>
+         </div>
+        </div>
+        <div class="icons">
+     <a href="https://www.facebook.com/KurukshetraUniversityKurukshetraharyana/ "><img src="C:\bin  2\photo\facebook.png" alt="facebook"></a>
+     <a href="https://twitter.com/vc_kuk"><img src="C:\bin  2\photo\x.png" alt="X"></a>
+     <a href="https://www.youtube.com/channel/UCq8wP4CDKoz1QSNUgSgEtnw"><img src="C:\bin  2\photo\youtube.png" alt="YouTube"></a>
+     <a href="https://en.wikipedia.org/wiki/Kurukshetra_University"><img src="C:\bin  2\photo\wikipedia.png" alt="wikipedia"></a>
+     </div>
+
+
+      </div>
+    </section>
+    </main>
+    <footer class="footer">
+      <div id="footer">
+      <div class="logo">
+        <img src="C:\bin  2\photo\customer-logo.png" alt="" >
+         <br>
+         <br>
+         <br>
+        <p>
+          Kurukshetra University,
+          <br>
+          Kurukshetra-136118,
+          <br>
+          (haryana)INDIA <br>
+        </p>
+      </div>
+      <div class="links">
+        <h3>Quick links</h3>
+       <a href="">home</a>
+       <a href="">alumni</a>
+       <a href="">contact us</a>
+       <br>
+       <br>
+       <br>
+       <a href="">kuk </a>
+       <a href="">about us</a>
+       <a href="">kukaa</a>
+       <a href="">admin login</a>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d445360.3067742019!2d75.7102203!3d29.3006034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e38b040ffffff%3A0x73873280de79b74b!2sKurukshetra%20University!5e0!3m2!1sen!2sin!4v1753084443541!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+     <div class="icons">
+     <a href="https://www.facebook.com/KurukshetraUniversityKurukshetraharyana/ "><img src="C:\bin  2\photo\facebook.png" alt="facebook"></a>
+     <a href="https://twitter.com/vc_kuk"><img src="C:\bin  2\photo\x.png" alt="X"></a>
+     <a href="https://www.youtube.com/channel/UCq8wP4CDKoz1QSNUgSgEtnw"><img src="C:\bin  2\photo\youtube.png" alt="YouTube"></a>
+     <a href="https://en.wikipedia.org/wiki/Kurukshetra_University"><img src="C:\bin  2\photo\wikipedia.png" alt="wikipedia"></a>
+     </div>
+     <p>
+       Copyright 2025 Kurukshetra University ,kuruksherta-136118
+        (haryana) INDIA 
+      </p>
+     
+
+    </footer>  
+     <script>
+      //login box
+        const navanchors = document.getElementsByClassName('anchor');
+        const loginbtn = document.getElementById('show-dialog');
+        const dialog = document.getElementById('dialog');
+        const main = document.getElementById('main');
+        loginbtn.addEventListener("click",()=>{
+            dialog.showModal();
+        })
+        //menu box
+        const menubtn = document.getElementById('menu');
+        const menudialog = document.getElementById('menu-dialog');
+
+        menubtn.addEventListener("click",()=> {
+         // menudialog.style.display="block";
+          main.style.marginLeft = "18%";
+           for(let i=0;i<navanchors.length;i++){
+            navanchors[i].style.display="none";
+          };
+          menudialog.show();
+
+        });
+        //slideshows
+
+        let index= 0;
+        slideshow();
+        function slideshow(){
+          const myslides = document.getElementsByClassName("slides");
+        
+          for(let i=0;i<myslides.length;i++){
+          myslides[i].style.display="none";
+         }
+          index++;
+          if(index>myslides.length){
+            index=1;
+          }
+        if(myslides.length>0){
+          myslides[index-1].style.display="block";
+        }
+          setTimeout(slideshow,2000 );
+        }
+        
+
+
+
+        //contact us
+        const mysections = document.getElementsByClassName("section");
+        const contactTag = document.getElementById('contactus');
+        const contact_btn= document.getElementById('contact-tag');
+        contact_btn.addEventListener("click",()=>{
+          contactTag.style.display="block";
+          event.preventDefault();
+          event.stopPropagation();
+          menuCloseReset();
+         Array.from(mysections).forEach(section => {
+          if(section===contactTag){
+            section.style.display="block";
+          }else section.style.display="none";
+         });
+        })
+
+
+        //updates
+        const updateSection = document.getElementById("updateSection");
+        const updatetag =document.getElementById("update-tag");
+        updatetag.addEventListener("click",()=>{
+          updateSection.style.display="block";
+           event.preventDefault();
+           event.stopPropagation();
+           menuCloseReset();
+          Array.from(mysections).forEach(section=>{
+            if(section===updateSection){
+              updateSection.style.display="block";
+            }else section.style.display="none";
+            })
+          });
+
+
+          //login
+          const navLoginBtn = document.getElementById('show-dialog');
+          const dialogBox = document.getElementById('dialog');
+          const logintag = document.getElementById('login-tag');
+           logintag.addEventListener("click",()=>{
+            dialog.showModal();
+              event.preventDefault();
+              event.stopPropagation();
+              menuCloseReset();
+            navLoginBtn.style.display="none";
+          Array.from(mysections).forEach(section=>{
+             if(section===dialogBox){
+              dialogBox.style.display="block";
+            }else section.style.display="none";
+          })
+        });
+
+         //notanlal alumnii
+         const notableAlumniSECTION = document.getElementById("notableAlumniSECTION");
+         const  contentDiv = document.getElementById('alimnii-content-div');
+         const contentDivClass  = Array.from(document.getElementsByClassName("alumni-content-div"));
+      
+
+
+
+      //menu button close
+      function menuCloseReset(){
+        if(menudialog.open){
+        menudialog.close();
+         main.style.marginLeft = "0";
+           for(let i=0;i<navanchors.length;i++){
+            navanchors[i].style.display="block";
+          };
+        }
+      };
+
+
+     </script>
+
+</body>
+</html>
