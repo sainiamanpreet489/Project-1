@@ -1,0 +1,78 @@
+        .loginpage{
+            border: 1px solid transparent;
+            border-radius: 6px;
+        }
+        .heading{
+            display:flex;
+            border-bottom: 1px solid ;
+            padding: 2px;
+            height: 35px;
+            align-items: center;
+        }
+        #close_button{
+            margin-left: auto;
+            padding: 4px;
+            width: 26px;
+            color: orange;
+            border: 0;
+            fill: white
+        ;
+            
+        }
+        .username,.password,.catchup{
+            display: flex;
+            border: 1px solid lightgray ;
+            margin: 4px 2px;
+        }
+        input{
+            border-color: lightgray;
+            height: 40px;
+            margin: 0px 0px;
+            width: 100%;
+        }
+        svg{
+            background-color: #9db4df;
+            border: 0px solid  gray;
+            padding: 10px;
+        }
+       .button{
+        background-color:darkblue;
+        color: white;
+       }
+       p{
+        align-items: center;
+       }
+       #reload{
+        width: 50px;
+        border-radius: 4px;
+        background-color: darkblue;
+       }
+       #image_box{
+        width: 165px; border-left: 0.5px solid lightgray; height: -webkit-fill-available;
+       }
+       #symbol{
+        padding: 4px;
+        width: -webkit-fil-available;
+        background-color: darkblue;
+       }
+       #image_catchup{
+        margin: 0 1px; width: 70%;
+        height: -webkit-fill-available;
+       }
+       #login_button{
+        width: 30%;
+        height: 30px;
+        border-radius: 6px;
+       }
+       #dialog{
+        border: transparent;
+        border-radius: 6px;
+        height: 50%;
+        width: 70%;
+        padding: 3%;
+        margin-top: 8%;
+        justify-self: anchor-center;   
+    }
+  .a-dialog{
+    color: slategray;
+  }

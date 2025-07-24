@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="login.css">
 </head>
@@ -56,12 +55,12 @@
     </nav>
     <main id="main">
     <section id="banner" class="section">
-      <img class="slides" src="main.webp" alt="">
+      <img class="slides" src="g4.webp" alt="">
        <img class="slides" src="m2.webp" alt="">
        <img class="slides" src="m4.jpg" alt="">
-       <img class="slides" src="g4.webp" alt="">
-       <img class="slides" src="g4.webp" alt="">
-       <img class="slides" src="m3.webp" alt="">
+       <img class="slides" src="main.webp" alt="">
+       <img class="slides" src="g3.webp" alt="">
+       <img class="slides" src="m3.webp " alt="">
     </section>
     <div  class="welcomepage">
         <h1 id="welcome">  Welcome to your Kurukshetra University Kurukshetra Alumni Association</h1>
@@ -111,7 +110,7 @@ What we hope this portal does is to give each of you a space to fearlessly share
         <h4>content</h4>
         </div>
        </div>
-       <div  id="alumnii-content-div "  class="alumni-content-div">
+       <div class="alumni-content-div">
         <div class="alumni-image">
         <img src="bandaru dattatreya.webp" alt="">
         </div>
@@ -119,7 +118,7 @@ What we hope this portal does is to give each of you a space to fearlessly share
         <h4>content</h4>
         </div>
        </div>
-       <div class="alumni-content-div"  id="alumnii-content-div " >
+       <div class="alumni-content-div">
         <div class="alumni-image">
         <img src="kanwar pal gujjar.webp" alt="">
         </div>
@@ -127,7 +126,7 @@ What we hope this portal does is to give each of you a space to fearlessly share
          <h4>content</h4>
         </div>
        </div>
-       <div class="alumni-content-div"  id="alumnii-content-div " >
+       <div class="alumni-content-div">
         <div class="alumni-image">
         <img src="geeta zutshi.webp" alt="">
         </div>
@@ -389,22 +388,22 @@ What we hope this portal does is to give each of you a space to fearlessly share
 
          //notanlal alumnii
          const notableAlumniSECTION = document.getElementById("notableAlumniSECTION");
-         const  contentDiv =Array.from(document.getElementById('alimnii-content-div'));
+         const  contentDiv = Array.from(document.getElementById('alimnii-content-div'));
          const contentDivClass  = Array.from(document.getElementsByClassName("alumni-content-div"));
-         contentDivClass.addEventListener("click",()=>{
-          for(let i=0;i<contentDivClass.length;i++){
-            for(let j=0;j<contentDiv.length;i++){
-            if(contentDivClass[i]===contentDiv[j]){
-                arry.from(mysections).forEach(section=>{
-                  if(section===notableAlumniSECTION){
-                    notableAlumniSECTION.style.display="block";
-                  }
-                  else section.style.display="none";
-                })
-                contentDivClass[i].style.display="block";
-            }else contentDivClass.style="none";
-          }}
+         contentDivClass.addEventListener("click",()=>{ 
+         for(let i=0;i<contentDivClass;i++){
+            for(let j=0;j<contentDiv;j++){
+              if(contentDivClass[i]===contentDiv[j]){
+                Array.from(mysections).forEach(section=>{
+             if(section===notableAlumniSECTION){
+              notableAlumniSECTION.style.display="block";
+            }else section.style.display="none";
           });
+          contentDiv[i].style.display="block";
+              }else contentdiv[i].style.display="none";
+            }
+          };
+        });
 
 
 
