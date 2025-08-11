@@ -9,60 +9,100 @@
 </head>
 <body>
     <nav id="nav"> 
-      <button id="menu">menu
+      <button id="menu"> <a > menu </a>
         <dialog id="menu-dialog">
         <div class="my">
           <img src="customer-logo.png" alt="logo">
           <div class="anchor-dialog">
-            <a href="">home</a>
-            <a id="login-tag" href="#loginbtn">login</a>
-            <a href="">about us</a>
+            <a id="icontab"  href="index.html"><svg class="navicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> </a>
+            <a id="login-tag" href="#loginbtn">login\signup</a>
+            <a id="about-tag" href="aboutdiv">about us</a>
             <a id="contact-tag" href="contact us">contact us</a>
             <a id="update-tag" href="#updates">updates</a>
           </div>
         </div>
         </dialog>
       </button>
-     <a id="1" class="anchor" href="#index.html">home</a>
-     <a id="2" class="anchor" href="mailto:">location</a>
-     <a id="3" class="anchor" href="">contact us</a>
-     <button id="show-dialog"> <a name="loginbtn">login </a></button>
-        <dialog aria-modal="true" id="dialog">
-              <form>
-                <div class="username" >
-                   <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v58q0 59-40.5 100.5T740-280q-35 0-66-15t-52-43q-29 29-65.5 43.5T480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480v58q0 26 17 44t43 18q26 0 43-18t17-44v-58q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h200v80H480Zm0-280q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Z"/></svg> 
-                <input type="text" name="user_name" size="15" placeholder="Registered Email">
-                </div>
-                <div class="password">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg> 
+     <a  class="anchor" href="#index.html">home</a>
+     <div  id="icontab" > <a  class="anchor" id="icontab" href="mailto:amanpreet00kaur52@" > <svg  class="navicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"> <path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"/></svg>  mail </a>
+    </div>
+     <div  id="icontab"> <a class="anchor" id="icontab" href="https://maps.app.goo.gl/PW3Sk9hp6roPnQUr8"
+      > <svg  class="navicon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="white"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> location</a> 
+      </div>
+
+     <a style="display:none;" class="anchor" id="icontab" href="">
+      contact us
+
+     </a>
+
+     <button  id="show-dialog"> 
+      <a id="icontab" class ="anchor"  name="loginbtn">
+
+      <svg  class="navicon"  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+
+      login </a>
+    </button>
+      
+     
+     
+     <dialog aria-modal="true" id="dialog">
+        
+      <div id="login-heading">user login    
+           <span id="cancel-icon"><svg   class="anchor" id="cancelbtnlogin" class="navicon" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"> <rect fill="none" height="28" width="28"/><path d="M3,3v18h18V3H3z M17,15.59L15.59,17L12,13.41L8.41,17L7,15.59L10.59,12L7,8.41L8.41,7L12,10.59L15.59,7L17,8.41L13.41,12 L17,15.59z"/></svg> </span>
+          </div>
+              <form action="http://localhost:4000/submit-form" method="post" id="form-state">
+                <label for="user_name"></label >
+                <input type="text" name="user_name" size="15" placeholder=" Enter Registered Email">
+                
+                <label for="password"></label>
                 <input type="password"  name="password" value="text" placeholder="PASSWORD"   maxlength="8">
                 </div>
-                <div class="catchup">
-                <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="44px" fill="#1f1f1f"><path d="M680-119q-8 0-16-2t-15-7l-120-70q-14-8-21.5-21.5T500-249v-141q0-16 7.5-29.5T529-441l120-70q7-5 15-7t16-2q8 0 15.5 2.5T710-511l120 70q14 8 22 21.5t8 29.5v141q0 16-8 29.5T830-198l-120 70q-7 4-14.5 6.5T680-119ZM400-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM80-160v-112q0-33 17-62t47-44q51-26 115-44t141-18h14q6 0 12 2-8 18-13.5 37.5T404-360h-4q-71 0-127.5 18T180-306q-9 5-14.5 14t-5.5 20v32h252q6 21 16 41.5t22 38.5H80Zm320-400q33 0 56.5-23.5T480-640q0-33-23.5-56.5T400-720q-33 0-56.5 23.5T320-640q0 33 23.5 56.5T400-560Zm0-80Zm12 400Zm174-166 94 55 94-55-94-54-94 54Zm124 208 90-52v-110l-90 53v109Zm-150-52 90 53v-109l-90-53v109Z"/>
-                </svg>
-               
-                <input type="image" id="image_box" placeholder="Text" >
-                <button id="reload" class="button" > <svg id="symbol" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="white"><path d="M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-110h80v280H520v-80h168q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q77 0 139-44t87-116h84q-28 106-114 173t-196 67Z"/></svg></button> 
-                <input id="image_catchup" type="text"  size="6" name="image_text" placeholder="Image Text">
-                </div>
-                 <p align="center">
-                 <button id="login_button" class="button"> login</button> </p><p align="center">
-            <a class="a-dialog" href="#" >first time user or don't remember password?</a> </p><p align="center">
-                    <a class="a-dialog">signup or OTP login</a></p>
-              </form>
+              
+                 <div align="center" id="login_div">
+                 <button type="submit" id="login_button" class="button"> login</button></div>
+            </form>
+            <div id="form-status">
+
+            </div>
+             <div class="register">
+               <a class="a-dialog" href="#register" >first time user or don't registered ? Register first!
+                <dialog name="register">
+                  <form>
+                    <label for="name">Name</label>
+                    <input type="text">
+                    <label for="email">Email</label>
+                    <input type="email">
+                    <label for="password">password</label>
+                    <input type="password">
+                    <button class="button" type="submit">submit</button>
+
+                </dialog>
+               </a> 
+             </div>
+              
         </dialog>
      </a>
     </nav>
+    
     <main id="main">
+      <div  id="iconmain" class="icons">
+     <a href="https://www.facebook.com/KurukshetraUniversityKurukshetraharyana/ "><img src="facebook.png" alt="facebook"></a>
+     <a href="https://twitter.com/vc_kuk"><img src="x.png" alt="X"></a>
+     <a href="https://www.youtube.com/channel/UCq8wP4CDKoz1QSNUgSgEtnw"><img src="youtube.png" alt="YouTube"></a>
+     <a href="https://en.wikipedia.org/wiki/Kurukshetra_University"><img src="wikipedia.png" alt="wikipedia"></a>
+     </div>
     <section id="banner" class="section">
-      <img class="slides" src="g4.webp" alt="">
-       <img class="slides" src="m2.webp" alt="">
+       <img class="slides" src="1.webp" alt="">
        <img class="slides" src="m4.jpg" alt="">
-       <img class="slides" src="main.webp" alt="">
+       <img class="slides" src="https://images.indianexpress.com/2023/04/Modi-5.jpg" alt="">
        <img class="slides" src="g3.webp" alt="">
        <img class="slides" src="m3.webp " alt="">
+       
+       <img class="slides" src="https://d1h684srpghjti.cloudfront.net/assets/images/gallary_photos/t1693571295_8TkYW44gjg.jpg?w=960&format=webp" alt="">
+
+       <img class="slides" src="https://d1h684srpghjti.cloudfront.net/assets/images/gallary_photos/t1679857098_dGVzyXn8uQ.jpg?w=1920&format=webp " alt="new">
     </section>
-    <div  class="welcomepage">
+    <div  class="section" id="welcomepage">
         <h1 id="welcome">  Welcome to your Kurukshetra University Kurukshetra Alumni Association</h1>
     <div class="p-img">
       <p>  
@@ -82,9 +122,9 @@ What we hope this portal does is to give each of you a space to fearlessly share
        <div class="notification" id="news">
          <h2>News</h2>
       <div id="animation">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
+        <a href="#">last date to submit internship report 12/8/2025</a>
+        <a href="#">M.A (3rd semester) result out check now</a>
+        <a href="#">last date for admissions 30/8/25.</a>
       </div>
     </div>
 
@@ -92,9 +132,9 @@ What we hope this portal does is to give each of you a space to fearlessly share
          <h2> <a name="updates">notification</a>
          </h2>
       <div id="animation">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
+        <a href="#">last date to submit internship report 12/8/2025</a>
+        <a href="#">M.A (3rd semester) result out check now</a>
+        <a href="#">last date for admissions 30/8/25. </a>
       </div>
       </div>
     </div>
@@ -102,36 +142,68 @@ What we hope this portal does is to give each of you a space to fearlessly share
     <section id="notableAlumniSECTION" class="section">
       <h1>notabal alumni</h1>
       <div class="notabal-alumni">
-       <div id="alumnii-content-div " class="alumni-content-div">
+       <div class="alumni-content-div" class="alumnii-content-div " >
         <div class="alumni-image">
         <img src="mnohar lal.webp" alt="">
         </div>
         <div class="info">
-        <h4>content</h4>
+        <h4>shri manohar lal</h4>
+        <p>
+          ex. chief minister, haryana
+          <br>
+          <br>
+          1st honorary alumni of Kurukshetra University
+          Kurukshetra alumni 
+
+        </p>
         </div>
        </div>
-       <div class="alumni-content-div">
+       <div class="alumni-content-div"
+       class="alumnii-content-div ">
         <div class="alumni-image">
         <img src="bandaru dattatreya.webp" alt="">
         </div>
         <div class="info">
-        <h4>content</h4>
+        <h4>shri bandaru dattatreya</h4>
+        <p>
+          hon'ble governor, haryana
+          <br>
+          <br>
+           honorary alumni of Kurukshetra University
+          Kurukshetra alumni 
+        </p>
         </div>
        </div>
-       <div class="alumni-content-div">
+       <div class="alumni-content-div"
+       class="alumnii-content-div " >
         <div class="alumni-image">
         <img src="kanwar pal gujjar.webp" alt="">
         </div>
         <div class="info">
-         <h4>content</h4>
+         <h4>shri kanwar pal gujjar</h4>
+          <p>
+          ex.mimister of education, haryana
+          <br>
+          <br>
+           Kurukshetra University
+          Kurukshetra alumni association 
+        </p>
+
         </div>
        </div>
-       <div class="alumni-content-div">
+       <div class="alumni-content-div" class="alumnii-content-div " >
         <div class="alumni-image">
         <img src="geeta zutshi.webp" alt="">
         </div>
         <div class="info">
-         <h4>content</h4>
+         <h4>geeta zutshi(athletics)</h4>
+          <p>
+          padma shri awardee
+          <br>
+          <br>
+            Kurukshetra University
+          Kurukshetra alumni association 
+        </p>
         </div>
        </div>
       </div>
@@ -140,54 +212,79 @@ What we hope this portal does is to give each of you a space to fearlessly share
 
      <section class="section" id="event">
       <h1>events</h1>
+
         <div id="main-div">
-          <div class="content">
+          <div class="content" id="event-one"   >
       <div class="img">
-        <img src="1.webp" alt="">
+        <img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/eventlogos/sizea/13368231689237968.jpg" alt="">
       </div>
+       <h2>Lateral Entry Opportunity in PRADAN</h2>
       <div class="img-information">
          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime cupiditate beatae corrupti quasi molestias similique, sint deleniti officia hic expedita architecto inventore accusantium! Reprehenderit totam repellendus commodi consequatur cum ex doloribus libero sequi unde quam! Ducimus quidem earum praesentium laboriosam facilis incidunt alias quod, vel aut temporibus fugiat, possimus consectetur? Alias praesentium, reiciendis eaque magnam nulla necessitatibus natus minus voluptas repudiandae autem sint amet aspernatur illo, suscipit mollitia culpa quisquam obcaecati libero explicabo itaque expedita accusantium dignissimos rem. Incidunt veritatis dolor modi eveniet totam, odit fuga iste magni beatae voluptas cumque necessitatibus, facere soluta itaque dolore numquam nihil. Porro excepturi unde animi optio soluta omnis fugiat ipsa eligendi nulla ut quam dolorum dolore consequatur dicta cumque recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+          This is to share that PRADAN is  on a  mission to hire  women professionals  with more than two years of work experience. It's a lateral hiring process.
+This position offers an incredible opportunity for someone passionate about making a meaningful difference in the lives of socio-economically marginalized rural communities. 
+
+
+This is to request you to help us spread the word within your alumni networks and connect with potential candidates who may be a great fit for this role. They may visit our website link https://www.pradan.net/join-us/#careers to apply. 
+
+With regards,
+
+Arnab Chakraborty
+Integrator, HRD unit
+PRADAN
+ 
+
          </p>
         </div>
-      </div>
-      <div class="content">
+        </div>
+      <div class="content" id="event-two">
       <div class="img">
         <img src="e1.jpg" alt="">
       </div>
+       <h2>Invitation for Dr. Rajendra Maleyvar (With Family) Organized by Dr. Ravi Shanker Professor (Re-employed under UGC scheme) Indian Institute of Foreign Trade (Deemed to be University) New Delhi & M.Sc. batch 1975 (Zoology) of KUK.</h2>
+       <h3>DATE & TIME:
+Start : Sun, Sep 22, 2024 11:30 AM
+(as per your local time, India Standard Time)</h3>
       <div class="img-information">
          <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime natur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
          </p>
         </div>
       </div>
-      <div class="content">
+      <div class="content"  id="event-three">
       <div class="img">
         <img src="e2.jpg" alt="">
       </div>
+       <h2>Centre for Distance and Online Education (Kurukshetra University Kurukshetra) erstwhile Directorate of Distance Education is going to organize Alumni Meet for all the students since its inception at Kurukshetra University Campus on 23rd November 2023. The</h2>
       <div class="img-information">
          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime cupiditate beatae corrupti quasi molestias similique, sint deleniti officia hic expedita architecto e recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         https://docs.google.com/forms/d/e/1FAIpQLSf9lLNftqRHYuN0a4AcKsl0VF-eGVbMS46MOL-CzdTmh31ilQ/viewform
+
+ 
+
          </p>
         </div>
       </div>
-      <div class="content">
+      <div class="content" id="event-four">
       <div class="img">
         <img src="e3.jpg" alt="">
       </div>
+       <h2>UGC - Sponsored 2-Week Online Refresher Course in Research Methodology in Social Sciences (ID), Apply Online : https://forms.gle/zhDnU63x993z8GEc9</h2>
       <div class="img-information">
          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voutem sint amet aspernatur illo, suscipit mollitia culpa quisquam obcaecati libero explicabo itaque expedita accusantium dignissimos rem. Incidunt veritatis dolor modi eveniet totam, odit fuga iste magni beatae voluptas cumque necessitatibus, facere soluta itaque dolore numquam nihil. Porro excepturi unde animi optio soluta omnis fugiat ipsa eligendi nulla ut quam dolorum dolore consequatur dicta cumque recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         APPLY ONLINE MODE  https://forms.gle/zhDnU63x993z8GEc9
          </p>
         </div>
       </div>
-      <div class="content">
+      <div class="content" id="event-five" >
       <div class="img">
         <img src="e4.jpg" alt="">
       </div>
+       <h2>Live telecast of Haryana Day celebrations in Kurukshetra University</h2>
       <div class="img-information">
          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos placeat aperiam sed vero eum veniam. Officia similique atque libero neque minus dolorem sint nihil quod rem! Asperiores explicabo neque voluptas enim, et delectus nam inventore officiis ducimus cupiditate aperiam necessitatibus veritatis unde, qui a voluptatum iusto eveniet perferendis voluptatem eum eius. Incidunt dolores, maxime cupiditate beatae corrupti quasi molestias similique, sint deleniti officia hic expedita architecto inventore accusantium! Reprehenderit totam repellendus commodi consequatur cum ex doloribus libero sequi unde qudit fuga iste magni beatae voluptas cumque necessitatibus, facere soluta itaque dolore numquam nihil. Porro excepturi unde animi optio soluta omnis fugiat ipsa eligendi nulla ut quam dolorum dolore consequatur dicta cumque recusandae totam, minima fuga, impedit adipisci nesciunt. Rerum, dolores cum ab reprehenderit quo aspernatur sint eveniet animi nesciunt itaque aliquam, dolor in. Facere qui, non dicta, a quibusdam nisi eaque earum sunt deleniti fuga veniam illum ipsum provident!
+         https://www.youtube.com/live/EheQEecV_Jw?si=SZTu4hRnxr7kopCf
+
          </p>
         </div>
       </div>
@@ -196,7 +293,7 @@ What we hope this portal does is to give each of you a space to fearlessly share
     <section class="section" id="gallary">
       <h1> gallary</h1>
       <div class="video">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/4t4_K1Xq5Sc?si=ysglWtAg1JsOQ4-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/4t4_K1Xq5Sc?si=ysglWtAg1JsOQ4-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen > </iframe>
          
          <iframe width="560" height="315" src="https://www.youtube.com/embed/EsahVEa19Aw?si=MQY1RkBLIuYqOS1R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Zj9zrFK5MZM?si=YXGq2DYh1uRZncCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -208,31 +305,44 @@ What we hope this portal does is to give each of you a space to fearlessly share
     </section>
     <section class="section">
       <h1>have query! contact us </h1>
-      <div class="form-container">
-        <div class="formdiv">
-        <form action="">
-          name<input type="text" placeholder="enter your name" value="text" name="name">
-          rollno<input type="text" name="rollno" placeholder="rollno" >
-          Email <input type="email" >
-          password<input type="password" name="password" value="text">
-          <textarea name="query" id="query-box"></textarea>
-          <button type="submit">submit</button>
-          <button type="reset">reset</button>
+      <div id="form-container">
+        <div id="formdiv">
+        
+        <form id="queryFORM" method="post" action="http://localhost:4000/submit-QUERY">
+          <label for="name">
+          <input type="text" placeholder="enter your name"  name="name" ></label>
+          <label for="class"></label>
+          <input type="text" name="class" placeholder="class" >
+          <label for="email"> </label>
+           <input type="email" name="email" >
+          <textarea name="query" id="query-box" ></textarea>
+          <div id="query_button">
+          <button class="button" type="submit">submit</button>
+          <button type="reset" class="button">reset</button>
+          </div>
+          <div id="status" ></div>
         </form>
+         
         </div>
        
     </section>
     <section class="section" id="contactus">
-      <div class="contactus">
         <h1><a name="contact us">contact us</a></h1>
-        <div class="contactinfo"><div>
+        <div class="contactinfo">
           <h2>Contact Info:</h2>
+          </div>
+           <div class="contactus">
           <p>Kurukshetra University Kurukshetra
-           <br><pre>mobile: 01744-238410 238196 (O); 
-            +91- 7082113154 (M)</pre>
-                  <br>
-                  link: www.kuk.ac.in <br>
-          mail: alumni@kuk.ac.in kukaa1@kuk.ac.in kukaa2@kuk.ac.in</p>
+           <br>
+           <div><svg class="form-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>:<div id="number"> <i>01744-238410 238196 (O); </i>
+            +91- 7082113154 (M)
+           </div>
+          </div>
+           <div>
+                  <svg  class="form-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z"/></svg> : www.kuk.ac.in <br>
+           </div>
+           <div>
+          <svg  class="form-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>: alumni@kuk.ac.in kukaa1@kuk.ac.in kukaa2@kuk.ac.in</div>
          </div>
         </div>
         <div class="icons">
@@ -245,6 +355,37 @@ What we hope this portal does is to give each of you a space to fearlessly share
 
       </div>
     </section>
+    <div id="loading" style="display: none;"> <img src ="customer-logo.png">  </div>
+    <div name="aboutdiv" class="section" id="aboutus">
+      <h1>about us
+      </h1>
+      <div class="collectediv">
+      <div class="memberdiv">
+        <h2> Director</h2>
+        <div class="mem-img">
+          <img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/formsdata/1627273793_diiCTiYMcs.jpg" alt="">
+        </div>
+        <div class="mem-data">
+         <h5>Dr.anil kumar mital</h5>
+          <p>Professor<br>
+          <b>M.com ,LL.B, Ph.D.</b><BR>
+          University school<br>
+           of management(usm).</p>
+        </div>
+      </div>
+       <div class="memberdiv">
+        <h2>deputy Director</h2>
+        <div class="mem-img">
+          <img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/formsdata/1628481512_R6U0obd0QO.jpeg" alt="">
+        </div>
+        <div class="mem-data">
+         <h5>Dr.kanwal garg</h5>
+          <p>assistant Professor<br>
+          <b> MCA Ph.D.</b><BR>
+          department of computer science & application.</p>
+        </div>
+      </div>
+  </div>
     </main>
     <footer class="footer">
       <div id="footer">
@@ -292,6 +433,7 @@ What we hope this portal does is to give each of you a space to fearlessly share
 
     </footer>  
      <script>
+      
       //login box
         const navanchors = document.getElementsByClassName('anchor');
         const loginbtn = document.getElementById('show-dialog');
@@ -299,7 +441,65 @@ What we hope this portal does is to give each of you a space to fearlessly share
         const main = document.getElementById('main');
         loginbtn.addEventListener("click",()=>{
             dialog.showModal();
+            
         })
+          //login
+          const navLoginBtn = document.getElementById('show-dialog');
+          const dialogBox = document.getElementById('dialog');
+          const logintag = document.getElementById('login-tag');
+           logintag.addEventListener("click",()=>{
+            dialog.showModal();
+              event.preventDefault();
+              event.stopPropagation();
+              menuCloseReset();
+            navLoginBtn.style.display="none";
+          Array.from(mysections).forEach(section=>{
+             if(section===dialogBox){
+              dialogBox.style.display="block";
+            }else section.style.display="none";
+          })
+        });
+        const formState = document.getElementById('form-state');
+        const formStatus = document.getElementById('form-status');
+        
+        formState.addEventListener('submit',async(event)=>{
+          event.preventDefault();
+        
+         formStatus.innerHTML=`<div> <p style="text-align: center;color:green">submittimg.... </p></div>`;
+            setTimeout(formState,2000 );
+            
+             dialogBox.innerHTML = `<div id="response"><p style="text-align: center;color:green">form submitted succesfully!</p>
+             <button type="reset" id="close" > ok</button></div>`
+             const close = document.getElementById('close').addEventListener("click",()=>{
+              logindialogCLOSE();
+             }) ;
+           const formData = new FormData(formState);
+           const data = Object.fromEntries(formData.entries());
+           //try{
+            const response = await fetch('http://localhost:4000/submit-form',{
+              method:'post',
+              headers: {
+                'content-type':'application/json'
+              },
+              body: JSON.stringify(data)
+            });
+
+            //if(!response.ok){
+              //throw new error(`Server responded with status:${response.status}`);
+            //}
+            //const result = await response.text();
+            //formStatus.innerHTML = `<p>"${result}"<p>`;
+              //formState.reset();
+            //} catch(error) {
+              //formStatus.innerHTML=`<p> error:${error.message}</p>`;
+            //}
+            
+            });
+            
+
+
+        
+           
         //menu box
         const menubtn = document.getElementById('menu');
         const menudialog = document.getElementById('menu-dialog');
@@ -313,6 +513,28 @@ What we hope this portal does is to give each of you a space to fearlessly share
           menudialog.show();
 
         });
+
+         //menu button close
+         function menuCloseReset(){
+         if(menudialog.open){
+          menudialog.close();
+          main.style.marginLeft = "0";
+           for(let i=0;i<navanchors.length;i++){
+            navanchors[i].style.display="block";
+           };
+          } 
+         };
+         //login close 
+         function logindialogCLOSE(){
+          if(dialog.showModal){
+            dialog.close();
+            formState.reset();
+          }
+         }
+          const cancelicon = document.getElementById('cancel-icon');cancelicon.addEventListener("click",()=>{
+          lodindialogCLOSE();
+        });
+
         //slideshows
 
         let index= 0;
@@ -352,6 +574,21 @@ What we hope this portal does is to give each of you a space to fearlessly share
          });
         })
 
+        //about
+        const aboutsection = document.getElementById('aboutus');
+        const abouttag = document.getElementById('about-tag');
+        abouttag.addEventListener("click",()=>{
+          abouttag.style.display="block";
+           event.preventDefault();
+           event.stopPropagation();
+           menuCloseReset();
+          Array.from(mysections).forEach(section=>{
+            if(section===aboutsection){
+              aboutsection.style.display="block";
+            }else section.style.display="none";
+            })
+        });
+
 
         //updates
         const updateSection = document.getElementById("updateSection");
@@ -369,57 +606,97 @@ What we hope this portal does is to give each of you a space to fearlessly share
           });
 
 
-          //login
-          const navLoginBtn = document.getElementById('show-dialog');
-          const dialogBox = document.getElementById('dialog');
-          const logintag = document.getElementById('login-tag');
-           logintag.addEventListener("click",()=>{
-            dialog.showModal();
-              event.preventDefault();
-              event.stopPropagation();
-              menuCloseReset();
-            navLoginBtn.style.display="none";
-          Array.from(mysections).forEach(section=>{
-             if(section===dialogBox){
-              dialogBox.style.display="block";
+        
+
+        //event section 
+const contentbox = document.getElementsByClassName("content");
+//const img = document.getElementsByTagName('img');
+const eventsection = document.getElementById('event');
+const maindiv = document.getElementById('main-div');
+const eventONE = document.getElementById("event-one");
+const eventTWO = document.getElementById("event-two");
+const eventThree = document.getElementById("event-three");
+const eventFOUR = document.getElementById("event-four");
+const eventFIVE = document.getElementById("event-five");
+const clickedEVENTsection =[eventONE,eventTWO,eventThree,eventFOUR,eventFIVE];
+Array.from(contentbox).forEach(content=>{
+  content.addEventListener("click",(event)=>{
+    event.preventDefault();
+    event.stopPropagation();
+     console.log(0);
+     hideEvents();
+     styleClickedContent();
+  if(content===eventONE){ 
+    eventONE.style.display="block";
+    eventONE.style.border="0" ;
+    eventONE.style.overflow="visible" ;
+    eventONE.style.height="fit-content";
+    console.log("1");
+   }else if(content === eventTWO){
+    eventTWO.style.display="block";
+     eventTWO.style.border="0";
+      eventTWO.style.overflow="visible";
+      eventTWO.style.height="fit-content";
+    console.log(2);
+  }else if(content===eventThree){
+   eventThree.style.display="block";
+   eventThree.style.border="0";
+    eventThree.style.overflow="visible";
+    eventThree.style.height="fit-content";
+   console.log("1");
+  }else if(content===eventFOUR){
+   eventFOUR.style.display="block";
+   eventFOUR.style.border="0";
+    eventFOUR.style.overflow="visible";
+    eventFOUR.style.height="fit-content";
+      console.log("1");
+  }else if(content===eventFIVE){
+   eventFIVE.style.display="block";
+   eventFIVE.style.border="0";
+    eventFIVE.style.overflow="visible";
+    eventFIVE.style.height="fit-content";
+      console.log("1");
+  }
+             
+               Array.from(mysections).forEach(section=>{
+             if(section===eventsection){
+              eventsection.style.display="block";
             }else section.style.display="none";
           })
-        });
+    })
+  });
 
-         //notanlal alumnii
-         const notableAlumniSECTION = document.getElementById("notableAlumniSECTION");
-         const  contentDiv = Array.from(document.getElementById('alimnii-content-div'));
-         const contentDivClass  = Array.from(document.getElementsByClassName("alumni-content-div"));
-         contentDivClass.addEventListener("click",()=>{ 
-         for(let i=0;i<contentDivClass;i++){
-            for(let j=0;j<contentDiv;j++){
-              if(contentDivClass[i]===contentDiv[j]){
-                Array.from(mysections).forEach(section=>{
-             if(section===notableAlumniSECTION){
-              notableAlumniSECTION.style.display="block";
-            }else section.style.display="none";
-          });
-          contentDiv[i].style.display="block";
-              }else contentdiv[i].style.display="none";
-            }
-          };
-        });
-
-
-
-      //menu button close
-      function menuCloseReset(){
-        if(menudialog.open){
-        menudialog.close();
-         main.style.marginLeft = "0";
-           for(let i=0;i<navanchors.length;i++){
-            navanchors[i].style.display="block";
-          };
-        }
-      };
-
-
-     </script>
+ function hideEvents(){
+   eventONE.style.display="none";
+    eventTWO.style.display="none";
+    eventThree.style.display="none";
+    eventFOUR.style.display="none";
+    eventFIVE.style.display="none";
+ }
+  function styleClickedContent(){
+    maindiv.style.border="6px  solid  darkred";
+    maindiv.style.borderRadius = "6px";
+    maindiv.style.borderStyle = "double" ;
+    maindiv.style.overflow = " visible" ;
+    maindiv.style.display="flex";
+    maindiv.style.width="auto";
+    maindiv.style.margin="4%" ;
+    eventsection.style.minHeight="600px";
+    eventsection.style.maxHeight="fit-content";
+   // img.style.alignSelf= "center";
+   // img.style.justifySelf= "center";
+  };
+  
+  //query section
+       
+        const querybtn = document.getElementById('query_button');
+        const status = document.getElementById('status');
+        querybtn.addEventListener("click",()=>{
+          status.innerHTML = `<div id="status"><p style="text-align: center;color:green">form submitted succesfully!</p>
+            </div>`;
+        })
+      
+        </script>
 
 </body>
 </html>

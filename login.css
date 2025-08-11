@@ -2,34 +2,26 @@
             border: 1px solid transparent;
             border-radius: 6px;
         }
-        .heading{
+        #login-heading{
             display:flex;
             border-bottom: 1px solid ;
             padding: 2px;
             height: 35px;
             align-items: center;
         }
-        #close_button{
-            margin-left: auto;
-            padding: 4px;
-            width: 26px;
-            color: orange;
-            border: 0;
-            fill: white
-        ;
-            
-        }
+
+       
         .username,.password,.catchup{
             display: flex;
             border: 1px solid lightgray ;
             margin: 4px 2px;
         }
-        input{
+       /* input{
             border-color: lightgray;
             height: 40px;
             margin: 0px 0px;
             width: 100%;
-        }
+        }*/
         svg{
             background-color: #9db4df;
             border: 0px solid  gray;
@@ -38,6 +30,12 @@
        .button{
         background-color:darkblue;
         color: white;
+        border-radius:7px;
+        margin:0.5%  2%;
+       }
+       .button:hover,.button:active{
+        background-color:darkred;
+        color:white;
        }
        p{
         align-items: center;
@@ -73,6 +71,13 @@
         margin-top: 8%;
         justify-self: anchor-center;   
     }
+    .register{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
   .a-dialog{
-    color: slategray;
+    color: rgb(10, 89, 236);
   }
+  
