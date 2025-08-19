@@ -374,6 +374,7 @@ h2 {
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: linear;
+  height:fit-content;
 }
 
 @keyframes moveHorizontaliy {
@@ -391,6 +392,7 @@ h2 {
   width: 45%;
   border: 0 solid;
   box-sizing: border-box;
+  overflow:hidden;
   margin: 0 1%;
 }
 
@@ -702,3 +704,4 @@ form button{
   fill:white;
 
 }
+
