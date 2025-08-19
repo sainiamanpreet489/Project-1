@@ -383,7 +383,7 @@ h2 {
   }
 
   to {
-    transform: translateX(50%);
+    transform: translateX(10%);
   }
 }
 
@@ -704,6 +704,7 @@ form button{
   fill:white;
 
 }
+
 
 
 
