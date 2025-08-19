@@ -65,7 +65,7 @@
        #dialog{
         border: transparent;
         border-radius: 6px;
-        height: 50%;
+        height: 20%;
         width: 50%;
         padding: 3%;
         margin-top: 8%;
@@ -82,4 +82,5 @@
   }
 
   
+
 
