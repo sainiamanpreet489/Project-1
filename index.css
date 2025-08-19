@@ -379,7 +379,7 @@ h2 {
 
 @keyframes moveHorizontaliy {
   from {
-    transform: translateX(-10%);
+    transform: translateX(-60%);
   }
 
   to {
@@ -704,6 +704,7 @@ form button{
   fill:white;
 
 }
+
 
 
 
