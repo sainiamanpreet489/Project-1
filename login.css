@@ -66,7 +66,7 @@
         border: transparent;
         border-radius: 6px;
         height: 50%;
-        width: 70%;
+        width: 50%;
         padding: 3%;
         margin-top: 8%;
         justify-self: anchor-center;   
@@ -80,4 +80,5 @@
   .a-dialog{
     color: rgb(10, 89, 236);
   }
+
   
