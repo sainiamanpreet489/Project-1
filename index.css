@@ -389,7 +389,7 @@ h2 {
 
 .notabal-alumni .alumni-content-div {
   height: -webkit-fill-available;
-  width: 45%;
+  /*width: 45%;*/
   border: 0 solid;
   box-sizing: border-box;
   overflow:hidden;
@@ -704,4 +704,5 @@ form button{
   fill:white;
 
 }
+
 
