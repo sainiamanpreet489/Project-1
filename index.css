@@ -368,7 +368,7 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   animation-name: moveHorizontaliy;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -379,7 +379,7 @@ h2 {
 
 @keyframes moveHorizontaliy {
   from {
-    transform: translateX(-10%);
+    transform: translateX(0%);
   }
 
   to {
@@ -704,6 +704,7 @@ form button{
   fill:white;
 
 }
+
 
 
 
