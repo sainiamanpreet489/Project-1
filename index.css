@@ -370,7 +370,7 @@ h2 {
   width: 100%;
   overflow-x: hidden;
   animation-name: moveHorizontaliy;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: linear;
@@ -383,7 +383,7 @@ h2 {
   }
 
   to {
-    transform: translateX(0%);
+    transform: translateX(50%);
   }
 }
 
@@ -704,6 +704,7 @@ form button{
   fill:white;
 
 }
+
 
 
 
